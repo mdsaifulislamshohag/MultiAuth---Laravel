@@ -1,0 +1,48 @@
+/* Primary Styles
+---------------------------------*/
+*{
+   font-family: 'Spectral', serif;
+   outline: 0 !important;
+}
+
+body,html{
+    height: 100%;
+    font-family: Garamond, Times, Arial;
+}
+
+a{
+    text-decoration:none;
+}
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none
+}
+
+a:hover{
+     text-decoration: none;
+}
+p{
+    white-space: pre-line;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media only screen and (max-width: 770px) {
+    .hide-sm {
+        display: none;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .hide-md {
+        display: none;
+    }
+}
+@media only screen and (min-width: 990px) {
+    .hide-lg {
+        display: none;
+    }
+}
+
+
+/*To do list*/
